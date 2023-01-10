@@ -1,13 +1,64 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #674ea7;
+  color: #fff;
+  position: relative;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25vh;
+}
+
+.input {
+  font-family: inherit;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  border: 2px solid #000;
+  outline: 0;
+}
+
+.card {
+  background-color: #6fa8dc;
+  padding: 0.8rem;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  border-radius: 25px;
+  margin: 0 auto;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  border: 2px solid #000;
+}
+
+.btn {
+  cursor: pointer;
+  position: absolute;
+  right: 16px;
+  background-color: #000;
+  border-radius: 16px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.title{
+  position: absolute;
+  right: 10px;
+  bottom: -230px;
+  padding: 1.5rem;
+  font-size: 2.5rem;
 }
